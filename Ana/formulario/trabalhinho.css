@@ -1,0 +1,26 @@
+body{
+    background-image: url("fundo.giulia.jpeg");
+    background-size: cover;
+
+   
+}
+h1{
+    color:aliceblue;
+    text-align: center;
+    margin-top: 40px;
+    border: 1px solid rgb(252, 103, 185);
+    background-color: rgba(252, 103, 185, 0.5);
+}
+h2{
+    color:aliceblue;
+    text-align:center;
+    margin-top:20px;
+    background: rgba(252, 103, 185, 0.5);
+}
+h3{
+    color: aliceblue;
+    border-left:20;
+    margin-top: 10px;
+    background: rgb(180, 58, 165);
+    background:linear-gradient(284deg, rgba(185, 58, 165, 0)0%, rgb(2253, 29, 169, 0.420091036414566) 50%, rgba(252, 69, 214, 1) 100%)
+}

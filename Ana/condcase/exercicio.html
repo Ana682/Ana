@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <style>
+        body{
+            background-color: rgb(243, 178, 224);
+            font-style: italic;
+    
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="chocolate.php" method="get">
+            <fieldset><legend>Saladas</legend>
+             <input type="radio" name="salad" id="alface"
+             value="1" checked>
+             <label for="tomate">Tomate</label>
+             <input type="radio" name="salad" id="tomate" value="2">
+             <label for="alface">Alface</label> 
+             <input type="radio" name="salad" id="alface"  value="3">
+        <label for="refri">Refrigerante</label>
+        <input type="radio" name="beb" id="suco" value="4">
+        <label for="suco">Suco</label>
+        </fieldset>
+        <label for="qtd">Quantidade:</label>
+        <input type="number" name="qtde" id="qtde">
+        <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>

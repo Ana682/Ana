@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="alistamento.css">
+    <title>Alistamento militar</title>
+    <style> 
+        body{
+            background-color: rgb(3, 34, 26);
+            font-style: italic;
+    
+        }
+        </style>
+</head>
+<body>
+    <h1>Alistamento Militar</h1>
+        <form action="provadeformulario.php" method="post">
+            <label for="nome">Diga seu nome: </label>
+            <br>
+            <input type="text" name="nome" id="nome">
+            <br>
+            <label for="ano">Ano atual:</label>
+            <br>
+            <input type="number" id="ano" name="ano" required>
+            <br>
+            <label for="data_nascimento">Sua data de nascimento: </label>
+            <br>
+            <input type="date" id="data_nascimento" name="data_nascimento" required>
+            <br>
+            <input type="submit" value="enviar">
+        </form>
+</body>
+</html>

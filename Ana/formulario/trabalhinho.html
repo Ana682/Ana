@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trabalhinho.css">
+    <title>BARBIE</title>
+</head>
+<body>
+    <h1>Bem-Vindo a Barbearia!</h1>
+    <h2>Aqui você pode apreciar comidas e bebidas de qualidade, musicas de bandas excelentes. Além disso, temos um espaço muito amplo.</h2>
+    <h3>Pedimos que prencha o formulário abaixo, para que possa observar se sua idade é viavél a entrar em nosso local.</h3>
+    <form action="trabalhinho.php" method="post">
+        <label for="nome">Diga seu nome: </label>
+        <br>
+        <input type="text" name="nome" id="nome">
+        <br>
+        <fieldset>
+            <legend>Qual é sua idade?</legend>
+            <input type="radio" name="idade" id="ididade" value="1" checked>
+            <label for="menor">Menor de 16</label>
+            <input type="radio" name="idade" id="ididade" value="2">
+            <label for="meio">16 ou 17 anos</label>
+            <input type="radio" name="idade" id="ididade" value="3">
+            <label for="maior">18 anos ou mais</label>
+        </fieldset>
+        <input type="submit" value="enviar">
+     </form>
+</body>
+</html>
